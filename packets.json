@@ -1,0 +1,52 @@
+[
+  {
+    "source": "A",
+    "destination": "B",
+    "payload": "Hello B from A"
+  },
+  {
+    "source": "B",
+    "destination": "C",
+    "payload": "Requesting status update"
+  },
+  {
+    "source": "C",
+    "destination": "D",
+    "payload": "Status update successful"
+  },
+  {
+    "source": "D",
+    "destination": "A",
+    "payload": "Acknowledgement received"
+  },
+  {
+    "source": "A",
+    "destination": "E",
+    "payload": "Send CPU metrics"
+  },
+  {
+    "source": "E",
+    "destination": "A",
+    "payload": "CPU usage is 45 percent"
+  },
+  {
+    "source": "B",
+    "destination": "D",
+    "payload": "Packet delivery check"
+  },
+  {
+    "source": "C",
+    "destination": "A",
+    "payload": "Network health report"
+  },
+  {
+    "source": "E",
+    "destination": "B",
+    "payload": "Latency report generated"
+  },
+  {
+    "source": "D",
+    "destination": "C",
+    "payload": "Connection established"
+  }
+]
