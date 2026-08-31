@@ -8,7 +8,7 @@ COPY frontend/package*.json ./
 RUN npm ci
 
 COPY frontend/ ./
-RUN npm run build
+RUN chmod -R +x node_modules/.bin && npm run build
 
 # =============================================================================
 # Stage 2: Python Build & Dependencies

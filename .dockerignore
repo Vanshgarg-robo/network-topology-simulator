@@ -1,6 +1,11 @@
 .git
 .gitignore
 .venv
+venv
+node_modules
+frontend/node_modules
+dist
+frontend/dist
 __pycache__
 *.pyc
 *.pyo
