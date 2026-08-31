@@ -1,0 +1,19 @@
+services:
+  simulator-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: network-topology-simulator
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=Network Topology Simulator
+      - LOG_LEVEL=INFO
+      - DEBUG=false
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
