@@ -123,8 +123,8 @@ Run the entire full-stack application (Frontend + Backend) with Docker Compose:
 docker compose up --build
 ```
 
-- **Web Dashboard**: [http://localhost:8000](http://localhost:8000)
-- **Interactive Swagger API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Web Dashboard**: [https://network-topology-simulator.onrender.com/](https://network-topology-simulator.onrender.com/)
+- **Interactive Swagger API Docs**: [https://network-topology-simulator.onrender.com//docs](https://network-topology-simulator.onrender.com/docs)
 
 ---
 
@@ -147,7 +147,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser!
+Open [https://network-topology-simulator.onrender.com/](https://network-topology-simulator.onrender.com/) in your browser!
 
 ---
 
